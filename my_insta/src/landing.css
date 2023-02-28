@@ -1,0 +1,26 @@
+*{
+    background-color: aqua;
+}
+.Landing_container{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.Landing_image_container{
+    width: 50%;
+    height: 40%;
+}
+.Landing_image{
+    width :70%;
+    height: 100%;
+    margin :auto;
+    padding: 5%;
+}
+.Landing_heading{
+    width: 49%;
+    height: 50%;
+    margin: auto;
+    margin-left: 50px;
+
+}

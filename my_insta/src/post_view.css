@@ -1,0 +1,44 @@
+*{
+    background-color: aliceblue;
+}
+.navbar{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+.Insta_circle{
+    width: 10%;
+    margin-top: 0px;
+    padding: 0px;
+}
+.card {
+    width: 350px;
+    height: 450px;
+
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 50px auto;
+  }
+
+  .card-header {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 500;
+  }
+.image{
+    width: 99.5%;
+    height: 60%;
+    object-fit: cover;
+    border: 1px solid black;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.post_image{
+    width: 100%;
+    height: 100%;
+}
